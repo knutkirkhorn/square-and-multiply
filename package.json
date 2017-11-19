@@ -2,6 +2,7 @@
   "name": "square-and-multiply",
   "version": "1.0.0",
   "description": "Get the square and multiply of the base, the exponent and the modulus",
+  "repository": "Knutakir/square-and-multiply",
   "main": "index.js",
   "scripts": {
     "test": "ava"
