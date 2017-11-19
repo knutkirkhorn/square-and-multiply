@@ -1,0 +1,20 @@
+{
+  "name": "square-and-multiply",
+  "version": "1.0.0",
+  "description": "Get the square and multiply of the base, the exponent and the modulus",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "square",
+    "and",
+    "multiply",
+    "math"
+  ],
+  "author": "Knut Kirkhorn",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}
