@@ -21,5 +21,5 @@ Returns the square and multiply of ```base```, ```exponent``` and ```modulus```.
 ## Related
 - [square-and-multiply-cli](https://github.com/Knutakir/square-and-multiply-cli) - CLI for this module
 
-## Licence
+## License
 MIT © [Knut Kirkhorn](LICENSE)
