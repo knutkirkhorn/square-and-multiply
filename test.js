@@ -1,5 +1,5 @@
-import test from 'ava';
-import squareAndMultiply from '.';
+const test = require('ava');
+const squareAndMultiply = require('.');
 
 test('square and multiply some numbers', t => {
     t.is(squareAndMultiply(14, 27, 37), 6);
