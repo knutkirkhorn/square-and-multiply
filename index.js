@@ -17,6 +17,7 @@ function squareAndMultiply(x, c, m) {
     let z = 1;
 
     for (let i = 0; i < iterations.length; i++) {
+        // eslint-disable-next-line no-restricted-properties
         z = Math.pow(z, 2);
 
         if (iterations[i] === 1) {
