@@ -1,4 +1,4 @@
-# square-and-multiply [![Build Status](https://travis-ci.org/Knutakir/square-and-multiply.svg?branch=main)](https://travis-ci.org/Knutakir/square-and-multiply)
+# square-and-multiply [![Build Status](https://travis-ci.org/knutkirkhorn/square-and-multiply.svg?branch=main)](https://travis-ci.org/knutkirkhorn/square-and-multiply)
 > Get the square and multiply of the base, the exponent and the modulus 
 
 ## Installation
@@ -19,7 +19,7 @@ console.log(squareAndMultiply(14, 27, 37));
 Returns the square and multiply of ```base```, ```exponent``` and ```modulus```.
 
 ## Related
-- [square-and-multiply-cli](https://github.com/Knutakir/square-and-multiply-cli) - CLI for this module
+- [square-and-multiply-cli](https://github.com/knutkirkhorn/square-and-multiply-cli) - CLI for this module
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
