@@ -1,4 +1,4 @@
-# square-and-multiply [![Build Status](https://travis-ci.org/knutkirkhorn/square-and-multiply.svg?branch=main)](https://travis-ci.org/knutkirkhorn/square-and-multiply)
+# square-and-multiply
 > Get the square and multiply of the base, the exponent and the modulus 
 
 ## Installation
