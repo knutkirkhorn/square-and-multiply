@@ -1,6 +1,6 @@
 {
   "name": "square-and-multiply",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get the square and multiply of the base, the exponent and the modulus",
   "repository": "knutkirkhorn/square-and-multiply",
   "main": "index.js",
