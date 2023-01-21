@@ -8,6 +8,10 @@
     "test": "ava",
     "lint": "eslint ."
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "square",
     "and",
