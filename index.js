@@ -1,33 +1,29 @@
-'use strict';
-
 function getBitRepresentation(number) {
-    const representation = [];
-    let tempNumber = number;
+	const representation = [];
+	let temporaryNumber = number;
 
-    while (tempNumber >= 1) {
-        representation.unshift(Math.floor(tempNumber % 2));
-        tempNumber /= 2;
-    }
+	while (temporaryNumber >= 1) {
+		representation.unshift(Math.floor(temporaryNumber % 2));
+		temporaryNumber /= 2;
+	}
 
-    return representation;
+	return representation;
 }
 
-function squareAndMultiply(x, c, m) {
-    const iterations = getBitRepresentation(c);
-    let z = 1;
+export default function squareAndMultiply(x, c, m) {
+	const iterations = getBitRepresentation(c);
+	let z = 1;
 
-    for (let i = 0; i < iterations.length; i++) {
-        // eslint-disable-next-line no-restricted-properties
-        z = Math.pow(z, 2);
+	// eslint-disable-next-line no-restricted-syntax
+	for (const iteration of iterations) {
+		z **= 2;
 
-        if (iterations[i] === 1) {
-            z *= x;
-        }
+		if (iteration === 1) {
+			z *= x;
+		}
 
-        z %= m;
-    }
+		z %= m;
+	}
 
-    return z;
+	return z;
 }
-
-module.exports = (x, c, m) => squareAndMultiply(x, c, m);

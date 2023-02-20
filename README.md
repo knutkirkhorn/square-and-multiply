@@ -5,13 +5,13 @@
 ## Installation
 
 ```
-$ npm install square-and-multiply
+npm install square-and-multiply
 ```
 
 ## Usage
 
 ```js
-const squareAndMultiply = require('square-and-multiply');
+import squareAndMultiply from 'square-and-multiply';
 
 console.log(squareAndMultiply(14, 27, 37));
 // => 6

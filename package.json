@@ -1,29 +1,37 @@
 {
-  "name": "square-and-multiply",
-  "version": "1.0.5",
-  "description": "Get the square and multiply of the base, the exponent and the modulus",
-  "repository": "knutkirkhorn/square-and-multiply",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava",
-    "lint": "eslint ."
-  },
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "keywords": [
-    "square",
-    "and",
-    "multiply",
-    "math"
-  ],
-  "author": "Knut Kirkhorn",
-  "license": "MIT",
-  "devDependencies": {
-    "ava": "^3.15.0",
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
-  }
+	"name": "square-and-multiply",
+	"version": "1.0.5",
+	"description": "Get the square and multiply of the base, the exponent and the modulus",
+	"repository": "knutkirkhorn/square-and-multiply",
+	"scripts": {
+		"test": "ava && tsd",
+		"lint": "eslint ."
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"square",
+		"and",
+		"multiply",
+		"math"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"engines": {
+		"node": ">=14.16"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"ava": "^5.2.0",
+		"eslint": "^8.34.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-ava": "^14.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^45.0.2",
+		"tsd": "^0.25.0"
+	}
 }
